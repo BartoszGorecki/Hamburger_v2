@@ -1,0 +1,15 @@
+.order-container {
+  width: 100%;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 10px auto;
+  padding: 10px;
+}
+.order-ing {
+  margin: 5px;
+}
+@media screen and (max-width: 400px) {
+  .order-ing {
+    display: block;
+  }
+}
